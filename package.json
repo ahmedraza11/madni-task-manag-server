@@ -1,0 +1,28 @@
+{
+  "name": "idara-tul-shouon",
+  "version": "1.0.0",
+  "description": "User Task Management System for Employee",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "idara-tul-shouon"
+  },
+  "keywords": [
+    "Task",
+    "Management"
+  ],
+  "author": "Ahmed Raza Qadri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
